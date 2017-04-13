@@ -25,17 +25,6 @@
                                     <action selector="refresh:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JeP-gD-LIV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Place" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFa-Or-t0D">
-                                <rect key="frame" x="108" y="241" width="43" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="minsk" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W4U-wF-U86">
-                                <rect key="frame" x="169" y="237" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2q-NK-PCT">
                                 <rect key="frame" x="169" y="46" width="97" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -47,7 +36,6 @@
                     </view>
                     <connections>
                         <outlet property="indicator" destination="b2q-NK-PCT" id="zZs-ic-84f"/>
-                        <outlet property="place" destination="W4U-wF-U86" id="yfC-re-M9g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

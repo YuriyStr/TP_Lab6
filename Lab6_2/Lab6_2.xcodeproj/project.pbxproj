@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8411FFC71E9F971500148543 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8411FFC61E9F971500148543 /* CoreLocation.framework */; };
 		847192791E9CCE1B00B1753B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847192781E9CCE1B00B1753B /* main.m */; };
 		8471927C1E9CCE1B00B1753B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471927B1E9CCE1B00B1753B /* AppDelegate.m */; };
 		8471927F1E9CCE1B00B1753B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471927E1E9CCE1B00B1753B /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8411FFC61E9F971500148543 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		847192731E9CCE1B00B1753B /* Lab6_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab6_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847192771E9CCE1B00B1753B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847192781E9CCE1B00B1753B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8411FFC71E9F971500148543 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		8471926A1E9CCE1B00B1753B = {
 			isa = PBXGroup;
 			children = (
+				8411FFC61E9F971500148543 /* CoreLocation.framework */,
 				847192751E9CCE1B00B1753B /* Lab6_2 */,
 				8471928F1E9CCE1B00B1753B /* Lab6_2Tests */,
 				847192741E9CCE1B00B1753B /* Products */,
